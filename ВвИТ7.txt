@@ -1,0 +1,23 @@
+1.a)Создаём файл ВвИТ7
+b)Создаём ГИТ
+c)Добавляем файла в ГИТ и создаём комит
+d)Загружаем данные Майл и Имя
+
+cd /user/home
+git init
+git add .
+git commit -m 'commit1'
+git config —global user.email"dasha.terekhina00@mail.ru"
+git config —global user.name"Dar-animeshnika"
+
+
+2.a)Создаем ветку
+b)Создаем комит
+c)Делаем локальный репозиторий - удаленным
+комит 2
+
+git branch -M mains
+git add .
+git commit -m 'commit2'
+git remote add origin2 https://github.com/Dar-animeshnika/-7.git
+git push -u origin2 main
